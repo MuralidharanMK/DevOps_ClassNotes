@@ -30,7 +30,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 8081
-      targetPort: 8081
+    - port: 443
+      targetPort: 6443
   selector:
     app: kubeserve
